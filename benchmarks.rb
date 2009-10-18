@@ -9,6 +9,8 @@ require 'pp'
 #require 'grit'
 require 'lib/grit'
 
+puts "HELLO"
+
 def main
   @wbare = File.expand_path(File.join('test', 'dot_git'))
   
